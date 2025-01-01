@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>basicAuth</artifactId>
+	<artifactId>jwtAuth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>basicAuth</name>
+	<name>jwtAuth</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -69,6 +69,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>4.4.0</version>
 		</dependency>
 	</dependencies>
 

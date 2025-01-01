@@ -1,8 +1,7 @@
-package basicAuth.service;
+package jwtAuth.service;
 
-import basicAuth.entity.RoleEntity;
-import basicAuth.entity.UserEntity;
-import basicAuth.repository.UserRepository;
+import jwtAuth.entity.UserEntity;
+import jwtAuth.repository.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,9 +1,9 @@
-package basicAuth.config;
+package jwtAuth.config;
 
-import basicAuth.entity.RoleEntity;
-import basicAuth.entity.UserEntity;
-import basicAuth.repository.RoleRepository;
-import basicAuth.repository.UserRepository;
+import jwtAuth.entity.RoleEntity;
+import jwtAuth.entity.UserEntity;
+import jwtAuth.repository.RoleRepository;
+import jwtAuth.repository.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

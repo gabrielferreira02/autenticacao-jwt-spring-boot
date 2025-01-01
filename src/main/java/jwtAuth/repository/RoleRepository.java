@@ -1,6 +1,6 @@
-package basicAuth.repository;
+package jwtAuth.repository;
 
-import basicAuth.entity.RoleEntity;
+import jwtAuth.entity.RoleEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<RoleEntity, Long> {
